@@ -3,3 +3,5 @@
 - Executar o comando ----\\ pip install -r requirements.txt \\----
 
 - Criar projeto ----\\ django-admin.exe startproject nome do projeto \\----
+
+- Mudar configurações(settings.py) do projeto, como a TIME ZONE e LANGUAGE CODE
