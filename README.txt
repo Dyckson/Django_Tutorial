@@ -1,0 +1,1 @@
+- Ambiente virtual(venv) =>  ----\\ python -m venv myvenv \\----
