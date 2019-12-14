@@ -7,3 +7,6 @@
 - Mudar configurações(settings.py) do projeto, como a TIME ZONE e LANGUAGE CODE
 
 - Criar banco de dados ----\\ python manage.py migrate \\----
+
+- Para manter tudo arrumado, vamos criar uma aplicação separada dentro do nosso projeto, com o comando 
+  ----\\ python manage.py startapp nome da aplicação \\----
