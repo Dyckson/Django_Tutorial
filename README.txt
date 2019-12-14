@@ -17,3 +17,6 @@
 
 - O último passo é adicionar nosso novo modelo(Carro) com o comando ----\\ python manage.py makemigrations concessionaria \\----
 - Adicionar ele ao banco de dados com ----\\ python manage.py migrate concessionaria \\----
+
+- Para observar todo o nosso progresso vamos criar um super usuário para acessar o admin do site 
+  python manage.py createsuperuser e acessar a http://127.0.0.1:8000/admin/ no navegador 
