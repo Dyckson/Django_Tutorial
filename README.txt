@@ -10,3 +10,4 @@
 
 - Para manter tudo arrumado, vamos criar uma aplicação separada dentro do nosso projeto, com o comando 
   ----\\ python manage.py startapp nome da aplicação \\----
+- Adicionar ao arquivo mytutotial/settings.py => INSTALLED_APPS a nossa aplicação criada cujo nome é 'concessionaria'
