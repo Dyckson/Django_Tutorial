@@ -11,3 +11,9 @@
 - Para manter tudo arrumado, vamos criar uma aplicação separada dentro do nosso projeto, com o comando 
   ----\\ python manage.py startapp nome da aplicação \\----
 - Adicionar ao arquivo mytutotial/settings.py => INSTALLED_APPS a nossa aplicação criada cujo nome é 'concessionaria'
+
+- Agora podemos escolher os campos que aparecerão na nossa aplicação // Vamos até model.py na nossa aplicação e criaremos
+  a ----\\ classe Carro(models.Model): \\----
+
+- O último passo é adicionar nosso novo modelo(Carro) com o comando ----\\ python manage.py makemigrations concessionaria \\----
+- Adicionar ele ao banco de dados com ----\\ python manage.py migrate concessionaria \\----
