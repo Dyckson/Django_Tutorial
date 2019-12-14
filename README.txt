@@ -19,4 +19,6 @@
 - Adicionar ele ao banco de dados com ----\\ python manage.py migrate concessionaria \\----
 
 - Para observar todo o nosso progresso vamos criar um super usuário para acessar o admin do site 
-  python manage.py createsuperuser e acessar a http://127.0.0.1:8000/admin/ no navegador 
+  python manage.py createsuperuser e acessar a http://127.0.0.1:8000/admin/ no navegador
+
+- Fazer a importação do .model Carro para a concessionaria/admin.py
