@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Concessionaria</title>
+    </head>
+    <body>
+        <h1>Veículos</h1>
+        {% for carro in carros %}
+        <div>
+            <p>Chassi: {{ carro.chassi }}</p>
+            <p>Veículo: {{ carro.nome_do_veiculo }}</p>
+            <p>Cor: {{ carro.cor }}</p>
+            <p>Portas: {{ carro.portas }}</p>
+        </div>
+        </br>
+        {% endfor %}
+    </body>
+</html>
