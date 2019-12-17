@@ -22,3 +22,7 @@
   python manage.py createsuperuser e acessar a http://127.0.0.1:8000/admin/ no navegador
 
 - Fazer a importação do .model Carro para a concessionaria/admin.py
+
+- Uma view é o lugar onde nós colocamos a "lógica" da nossa aplicação. Ela vai extrair informações do model que você criou e entregá-las a um template
+
+- Criando o metodo post_list e os diretórios template/concessionaria
